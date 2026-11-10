@@ -1,0 +1,1182 @@
+- program: arj
+  package: arj
+  query: file_download
+  test_program: true
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    sockAddr: true
+    resultFlows: false
+  final_result: false
+  classification: True negative
+- program: arjdisp
+  package: arj
+  query: file_download
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    sockAddr: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: rearj
+  package: arj
+  query: file_download
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    sockAddr: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: dig
+  package: bind9-dnsutils
+  query: file_download
+  test_program: true
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    sockAddr: true
+    resultFlows: false
+  final_result: false
+  classification: True negative
+- program: delv
+  package: bind9-dnsutils
+  query: file_download
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    sockAddr: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: dnstap-read
+  package: bind9-dnsutils
+  query: file_download
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    sockAddr: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: mdig
+  package: bind9-dnsutils
+  query: file_download
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    sockAddr: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: nslookup
+  package: bind9-dnsutils
+  query: file_download
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    getaddrinfoCallsWithFlow: true
+    sockAddr: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: nsupdate
+  package: bind9-dnsutils
+  query: file_download
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    sockAddr: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: curl
+  package: curl
+  query: file_download
+  test_program: true
+  has_label: true
+  meta_results:
+    argvInProgram: true
+    source: true
+    sockAddr: true
+    resultFlows: false
+  final_result: false
+  classification: False negative
+- program: setlock
+  package: daemontools
+  query: file_download
+  test_program: true
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    sockAddr: true
+    resultFlows: false
+  final_result: false
+  classification: True negative
+- program: softlimit
+  package: daemontools
+  query: file_download
+  test_program: true
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    sockAddr: true
+    resultFlows: false
+  final_result: false
+  classification: True negative
+- program: envdir
+  package: daemontools
+  query: file_download
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    sockAddr: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: envuidgid
+  package: daemontools
+  query: file_download
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    sockAddr: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: fghack
+  package: daemontools
+  query: file_download
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    sockAddr: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: multilog
+  package: daemontools
+  query: file_download
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    sockAddr: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: pgrphack
+  package: daemontools
+  query: file_download
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    sockAddr: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: readproctitle
+  package: daemontools
+  query: file_download
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    sockAddr: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: setuidgid
+  package: daemontools
+  query: file_download
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    sockAddr: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: supervise
+  package: daemontools
+  query: file_download
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    sockAddr: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: svc
+  package: daemontools
+  query: file_download
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    sockAddr: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: dialog
+  package: dialog
+  query: file_download
+  test_program: true
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    sockAddr: true
+    resultFlows: false
+  final_result: false
+  classification: True negative
+- program: debugfs
+  package: e2fsprogs
+  query: file_download
+  test_program: true
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    optarg: true
+    source: true
+    sockAddr: true
+    fprintfCallsWithFlow: timeout
+  final_result: timeout
+  classification: null
+- program: sshpass
+  package: sshpass
+  query: file_download
+  test_program: true
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    optarg: true
+    source: true
+    sockAddr: true
+    resultFlows: false
+  final_result: false
+  classification: True negative
+- program: strace
+  package: strace
+  query: file_download
+  test_program: true
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    optarg: true
+    source: true
+    sockAddr: true
+    resultFlows: false
+  final_result: false
+  classification: True negative
+- program: pidstat
+  package: sysstat
+  query: file_download
+  test_program: true
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    sockAddr: true
+    resultFlows: false
+  final_result: false
+  classification: True negative
+- program: cifsiostat
+  package: sysstat
+  query: file_download
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    sockAddr: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: iostat
+  package: sysstat
+  query: file_download
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    sockAddr: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: mpstat
+  package: sysstat
+  query: file_download
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    sockAddr: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: sadc
+  package: sysstat
+  query: file_download
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    sockAddr: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: sadf
+  package: sysstat
+  query: file_download
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    sockAddr: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: sar
+  package: sysstat
+  query: file_download
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    sockAddr: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: tapestat
+  package: sysstat
+  query: file_download
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    sockAddr: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: tdbtool
+  package: tdb-tools
+  query: file_download
+  test_program: true
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    sockAddr: true
+    resultFlows: false
+  final_result: false
+  classification: True negative
+- program: tdbbackup
+  package: tdb-tools
+  query: file_download
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    optarg: true
+    source: true
+    sockAddr: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: tdbdump
+  package: tdb-tools
+  query: file_download
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    optarg: true
+    source: true
+    sockAddr: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: tdbrestore
+  package: tdb-tools
+  query: file_download
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    sockAddr: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: tftp
+  package: tftp-hpa
+  query: file_download
+  test_program: true
+  has_label: true
+  meta_results:
+    argvInProgram: true
+    source: true
+    sockAddr: true
+    resultFlows: false
+  final_result: false
+  classification: False negative
+- program: time
+  package: time
+  query: file_download
+  test_program: true
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    optarg: true
+    source: true
+    sockAddr: true
+    resultFlows: false
+  final_result: false
+  classification: True negative
+- program: wish
+  package: tk
+  query: file_download
+  test_program: true
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    sockAddr: true
+    resultFlows: false
+  final_result: false
+  classification: True negative
+- program: tmate
+  package: tmate
+  query: file_download
+  test_program: true
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    source: true
+    sockAddr: true
+    resultFlows: false
+  final_result: false
+  classification: True negative
+- program: tmux
+  package: tmux
+  query: file_download
+  test_program: true
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    source: true
+    sockAddr: true
+    resultFlows: false
+  final_result: false
+  classification: True negative
+- program: tor
+  package: tor
+  query: file_download
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    sockAddr: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: tor-gencert
+  package: tor
+  query: file_download
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    sockAddr: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: tor-print-ed-signing-cert
+  package: tor
+  query: file_download
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    sockAddr: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: tor-resolve
+  package: tor
+  query: file_download
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    sockAddr: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: unzip
+  package: unzip
+  query: file_download
+  test_program: true
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    sockAddr: true
+    resultFlows: false
+  final_result: false
+  classification: True negative
+- program: agetty
+  package: util-linux
+  query: file_download
+  test_program: true
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    optarg: true
+    source: true
+    sockAddr: true
+    resultFlows: false
+  final_result: false
+  classification: True negative
+- program: choom
+  package: util-linux
+  query: file_download
+  test_program: true
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    optarg: true
+    source: true
+    sockAddr: true
+    resultFlows: false
+  final_result: false
+  classification: True negative
+- program: column
+  package: util-linux
+  query: file_download
+  test_program: true
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    optarg: true
+    source: true
+    sockAddr: true
+    resultFlows: false
+  final_result: false
+  classification: True negative
+- program: dmesg
+  package: util-linux
+  query: file_download
+  test_program: true
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    optarg: true
+    source: true
+    sockAddr: true
+    resultFlows: false
+  final_result: false
+  classification: True negative
+- program: alpine
+  package: alpine
+  query: file_download
+  test_program: true
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    sockAddr: true
+    resultFlows: false
+  final_result: false
+  classification: True negative
+- program: rpdump
+  package: alpine
+  query: file_download
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    sockAddr: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: rpload
+  package: alpine
+  query: file_download
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    sockAddr: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: mkafmmap
+  package: enscript
+  query: file_download
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    optarg: true
+    source: true
+    sockAddr: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: states
+  package: enscript
+  query: file_download
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    optarg: true
+    source: true
+    sockAddr: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: dvips
+  package: texlive-binaries
+  query: file_download
+  test_program: true
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    sockAddr: true
+    resultFlows: false
+  final_result: false
+  classification: True negative
+- program: luatex
+  package: texlive-binaries
+  query: file_download
+  test_program: true
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    sockAddr: true
+    resultFlows: false
+  final_result: false
+  classification: True negative
+- program: afm2pl
+  package: texlive-binaries
+  query: file_download
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    sockAddr: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: ssh-agent
+  package: openssh-client
+  query: file_download
+  test_program: true
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    source: true
+    sockAddr: true
+    resultFlows: false
+  final_result: false
+  classification: True negative
+- program: ssh-keygen
+  package: openssh-client
+  query: file_download
+  test_program: true
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    source: true
+    sockAddr: true
+    resultFlows: false
+  final_result: false
+  classification: True negative
+- program: ssh-keyscan
+  package: openssh-client
+  query: file_download
+  test_program: true
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    source: true
+    sockAddr: true
+    resultFlows: false
+  final_result: false
+  classification: True negative
+- program: ssh-add
+  package: openssh-client
+  query: file_download
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    source: true
+    sockAddr: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: ssh-keysign
+  package: openssh-client
+  query: file_download
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    sockAddr: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: ssh-pkcs11-helper
+  package: openssh-client
+  query: file_download
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    source: true
+    sockAddr: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: ssh-sk-helper
+  package: openssh-client
+  query: file_download
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    source: true
+    sockAddr: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: printenv
+  package: coreutils
+  query: file_download
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    source: true
+    sockAddr: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: printf
+  package: coreutils
+  query: file_download
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    sockAddr: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: pwd
+  package: coreutils
+  query: file_download
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    source: true
+    sockAddr: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: readlink
+  package: coreutils
+  query: file_download
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    source: true
+    sockAddr: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: realpath
+  package: coreutils
+  query: file_download
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    optarg: true
+    source: true
+    sockAddr: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: rm
+  package: coreutils
+  query: file_download
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    optarg: true
+    source: true
+    sockAddr: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: rmdir
+  package: coreutils
+  query: file_download
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    source: true
+    sockAddr: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: runcon
+  package: coreutils
+  query: file_download
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    optarg: true
+    source: true
+    sockAddr: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: seq
+  package: coreutils
+  query: file_download
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    optarg: true
+    source: true
+    sockAddr: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: shred
+  package: coreutils
+  query: file_download
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    optarg: true
+    source: true
+    sockAddr: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: sleep
+  package: coreutils
+  query: file_download
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    source: true
+    sockAddr: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: stat
+  package: coreutils
+  query: file_download
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    optarg: true
+    source: true
+    sockAddr: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: stty
+  package: coreutils
+  query: file_download
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    optarg: true
+    source: true
+    sockAddr: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: sync
+  package: coreutils
+  query: file_download
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    source: true
+    sockAddr: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: test
+  package: coreutils
+  query: file_download
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    sockAddr: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: touch
+  package: coreutils
+  query: file_download
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    optarg: true
+    source: true
+    sockAddr: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: tr
+  package: coreutils
+  query: file_download
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    source: true
+    sockAddr: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: 'true'
+  package: coreutils
+  query: file_download
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    sockAddr: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: truncate
+  package: coreutils
+  query: file_download
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    optarg: true
+    source: true
+    sockAddr: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: tsort
+  package: coreutils
+  query: file_download
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    source: true
+    sockAddr: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: tty
+  package: coreutils
+  query: file_download
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    source: true
+    sockAddr: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: uname
+  package: coreutils
+  query: file_download
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    source: true
+    sockAddr: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: unlink
+  package: coreutils
+  query: file_download
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    source: true
+    sockAddr: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: users
+  package: coreutils
+  query: file_download
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    source: true
+    sockAddr: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: who
+  package: coreutils
+  query: file_download
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    source: true
+    sockAddr: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: whoami
+  package: coreutils
+  query: file_download
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    source: true
+    sockAddr: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: 'yes'
+  package: coreutils
+  query: file_download
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    source: true
+    sockAddr: true
+    resultFlows: false
+  final_result: false
+  classification: null

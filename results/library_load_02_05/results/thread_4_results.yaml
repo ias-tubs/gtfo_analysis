@@ -1,0 +1,1383 @@
+- program: ab
+  package: apache2-utils
+  query: library_load
+  test_program: true
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: True negative
+- program: checkgid
+  package: apache2-utils
+  query: library_load
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: fcgistarter
+  package: apache2-utils
+  query: library_load
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: htcacheclean
+  package: apache2-utils
+  query: library_load
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: htdbm
+  package: apache2-utils
+  query: library_load
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: htdigest
+  package: apache2-utils
+  query: library_load
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: htpasswd
+  package: apache2-utils
+  query: library_load
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: httxt2dbm
+  package: apache2-utils
+  query: library_load
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: logresolve
+  package: apache2-utils
+  query: library_load
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: rotatelogs
+  package: apache2-utils
+  query: library_load
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: genisoimage
+  package: genisoimage
+  query: library_load
+  test_program: true
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: True negative
+- program: devdump
+  package: genisoimage
+  query: library_load
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: isodump
+  package: genisoimage
+  query: library_load
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: isoinfo
+  package: genisoimage
+  query: library_load
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: isovfy
+  package: genisoimage
+  query: library_load
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: mkzftree
+  package: genisoimage
+  query: library_load
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    optarg: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: cpulimit
+  package: cpulimit
+  query: library_load
+  test_program: true
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    optarg: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: True negative
+- program: crash
+  package: crash
+  query: library_load
+  test_program: true
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    optarg: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: True negative
+- program: ippevepcl
+  package: cups-ipp-utils
+  query: library_load
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: ippeveprinter
+  package: cups-ipp-utils
+  query: library_load
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: ippeveps
+  package: cups-ipp-utils
+  query: library_load
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: ippfind
+  package: cups-ipp-utils
+  query: library_load
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: ipptool
+  package: cups-ipp-utils
+  query: library_load
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: distcc
+  package: distcc
+  query: library_load
+  test_program: true
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: True negative
+- program: distccd
+  package: distcc
+  query: library_load
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: lsdistcc
+  package: distcc
+  query: library_load
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: dos2unix
+  package: dos2unix
+  query: library_load
+  test_program: true
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: True negative
+- program: unix2dos
+  package: dos2unix
+  query: library_load
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: debugfs
+  package: e2fsprogs
+  query: library_load
+  test_program: true
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    optarg: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: True negative
+- program: logsave
+  package: e2fsprogs
+  query: library_load
+  test_program: true
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: True negative
+- program: badblocks
+  package: e2fsprogs
+  query: library_load
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    optarg: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: chattr
+  package: e2fsprogs
+  query: library_load
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: dumpe2fs
+  package: e2fsprogs
+  query: library_load
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    optarg: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: e2freefrag
+  package: e2fsprogs
+  query: library_load
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    optarg: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: e2fsck
+  package: e2fsprogs
+  query: library_load
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    optarg: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: e2image
+  package: e2fsprogs
+  query: library_load
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    optarg: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: e2label
+  package: e2fsprogs
+  query: library_load
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: e2undo
+  package: e2fsprogs
+  query: library_load
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    optarg: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: e4crypt
+  package: e2fsprogs
+  query: library_load
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: filefrag
+  package: e2fsprogs
+  query: library_load
+  test_program: false
+  has_label: false
+  meta_results:
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: lsattr
+  package: e2fsprogs
+  query: library_load
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: mke2fs
+  package: e2fsprogs
+  query: library_load
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    optarg: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: mklost+found
+  package: e2fsprogs
+  query: library_load
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: resize2fs
+  package: e2fsprogs
+  query: library_load
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    optarg: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: tune2fs
+  package: e2fsprogs
+  query: library_load
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    optarg: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: openvt
+  package: kbd
+  query: library_load
+  test_program: true
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    optarg: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: True negative
+- program: chvt
+  package: kbd
+  query: library_load
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    optarg: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: codepage
+  package: kbd
+  query: library_load
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: deallocvt
+  package: kbd
+  query: library_load
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    optarg: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: dumpkeys
+  package: kbd
+  query: library_load
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    optarg: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: fgconsole
+  package: kbd
+  query: library_load
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    optarg: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: getkeycodes
+  package: kbd
+  query: library_load
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: kbd_mode
+  package: kbd
+  query: library_load
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    optarg: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: kbdinfo
+  package: kbd
+  query: library_load
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    optarg: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: kbdrate
+  package: kbd
+  query: library_load
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    optarg: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: loadkeys
+  package: kbd
+  query: library_load
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    optarg: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: loadunimap
+  package: kbd
+  query: library_load
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    optarg: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: mapscrn
+  package: kbd
+  query: library_load
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    optarg: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: psfxtable
+  package: kbd
+  query: library_load
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: resizecons
+  package: kbd
+  query: library_load
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: screendump
+  package: kbd
+  query: library_load
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: setfont
+  package: kbd
+  query: library_load
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: setkeycodes
+  package: kbd
+  query: library_load
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    optarg: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: setleds
+  package: kbd
+  query: library_load
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: setlogcons
+  package: kbd
+  query: library_load
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    optarg: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: setmetamode
+  package: kbd
+  query: library_load
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    optarg: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: setvesablank
+  package: kbd
+  query: library_load
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: setvtrgb
+  package: kbd
+  query: library_load
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    optarg: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: showconsolefont
+  package: kbd
+  query: library_load
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    optarg: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: showkey
+  package: kbd
+  query: library_load
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    optarg: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: splitfont
+  package: kbd
+  query: library_load
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: vcstime
+  package: kbd
+  query: library_load
+  test_program: false
+  has_label: false
+  meta_results:
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: ltrace
+  package: ltrace
+  query: library_load
+  test_program: true
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: True negative
+- program: lua
+  package: lua5.4
+  query: library_load
+  test_program: true
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: True negative
+- program: luac
+  package: lua5.4
+  query: library_load
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: lvm
+  package: lvm2
+  query: library_load
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: imap4d
+  package: mailutils-imap4d
+  query: library_load
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: mail
+  package: mailutils
+  query: library_load
+  test_program: true
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: True negative
+- program: decodemail
+  package: mailutils
+  query: library_load
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: dotlock
+  package: mailutils
+  query: library_load
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: frm
+  package: mailutils
+  query: library_load
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: from
+  package: mailutils
+  query: library_load
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: messages
+  package: mailutils
+  query: library_load
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: mimeview
+  package: mailutils
+  query: library_load
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: movemail
+  package: mailutils
+  query: library_load
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: readmsg
+  package: mailutils
+  query: library_load
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: sieve
+  package: mailutils
+  query: library_load
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: arp
+  package: net-tools
+  query: library_load
+  test_program: true
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    optarg: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: True negative
+- program: ifconfig
+  package: net-tools
+  query: library_load
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: ipmaddr
+  package: net-tools
+  query: library_load
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: iptunnel
+  package: net-tools
+  query: library_load
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: mii-tool
+  package: net-tools
+  query: library_load
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    optarg: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: nameif
+  package: net-tools
+  query: library_load
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    optarg: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: netstat
+  package: net-tools
+  query: library_load
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    optarg: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: plipconfig
+  package: net-tools
+  query: library_load
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: rarp
+  package: net-tools
+  query: library_load
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    optarg: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: route
+  package: net-tools
+  query: library_load
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    optarg: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: slattach
+  package: net-tools
+  query: library_load
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    optarg: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: ssh-keygen
+  package: openssh-client
+  query: library_load
+  test_program: true
+  has_label: true
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: False negative
+- program: scp
+  package: openssh-client
+  query: library_load
+  test_program: true
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: True negative
+- program: sftp
+  package: openssh-client
+  query: library_load
+  test_program: true
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: True negative
+- program: ssh
+  package: openssh-client
+  query: library_load
+  test_program: true
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: True negative
+- program: ssh-agent
+  package: openssh-client
+  query: library_load
+  test_program: true
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: True negative
+- program: ssh-keyscan
+  package: openssh-client
+  query: library_load
+  test_program: true
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: True negative
+- program: ssh-add
+  package: openssh-client
+  query: library_load
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: ssh-keysign
+  package: openssh-client
+  query: library_load
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: ssh-pkcs11-helper
+  package: openssh-client
+  query: library_load
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: ssh-sk-helper
+  package: openssh-client
+  query: library_load
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: smbclient
+  package: smbclient
+  query: library_load
+  test_program: true
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: True negative
+- program: cifsdd
+  package: smbclient
+  query: library_load
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: mdsearch
+  package: smbclient
+  query: library_load
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: rpcclient
+  package: smbclient
+  query: library_load
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: smbcacls
+  package: smbclient
+  query: library_load
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: smbcquotas
+  package: smbclient
+  query: library_load
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: smbget
+  package: smbclient
+  query: library_load
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: smbspool
+  package: smbclient
+  query: library_load
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: smbspool_krb5_wrapper
+  package: smbclient
+  query: library_load
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: smbtree
+  package: smbclient
+  query: library_load
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null

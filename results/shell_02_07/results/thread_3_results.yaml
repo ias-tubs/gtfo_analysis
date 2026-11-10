@@ -1,0 +1,1338 @@
+- program: suexec
+  package: apache2-suexec-custom
+  query: shell
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    execCallsWithFlow: true
+    executeFileFlows: true
+    executeFlows: true
+    resultFlows: true
+  final_result: true
+  classification: null
+- program: dc
+  package: dc
+  query: shell
+  test_program: true
+  has_label: true
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    optarg: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: False negative
+- program: host
+  package: bind9-host
+  query: shell
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: bzip2
+  package: bzip2
+  query: shell
+  test_program: true
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: True negative
+- program: bzip2recover
+  package: bzip2
+  query: shell
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: icedax
+  package: icedax
+  query: shell
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: clamscan
+  package: clamav
+  query: shell
+  test_program: true
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: True negative
+- program: clamav-milter
+  package: clamav
+  query: shell
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: clambc
+  package: clamav
+  query: shell
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: clamconf
+  package: clamav
+  query: shell
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: clamd
+  package: clamav
+  query: shell
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: clamdscan
+  package: clamav
+  query: shell
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: clamdtop
+  package: clamav
+  query: shell
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: clamonacc
+  package: clamav
+  query: shell
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: clamsubmit
+  package: clamav
+  query: shell
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: freshclam
+  package: clamav
+  query: shell
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: iftop
+  package: iftop
+  query: shell
+  test_program: true
+  has_label: true
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: False negative
+- program: ftpd
+  package: inetutils-ftpd
+  query: shell
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: telnet
+  package: inetutils-telnet
+  query: shell
+  test_program: true
+  has_label: true
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: False negative
+- program: tracepath
+  package: iputils-tracepath
+  query: shell
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    optarg: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: less
+  package: less
+  query: shell
+  test_program: true
+  has_label: true
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: False negative
+- program: lessecho
+  package: less
+  query: shell
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: lesskey
+  package: less
+  query: shell
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: virsh
+  package: libvirt-clients
+  query: shell
+  test_program: true
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    optarg: true
+    source: true
+    openCallWithFlow: true
+    resultFlows: false
+  final_result: false
+  classification: True negative
+- program: virt-admin
+  package: libvirt-clients
+  query: shell
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    optarg: true
+    source: true
+    openCallWithFlow: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: virt-host-validate
+  package: libvirt-clients
+  query: shell
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: virt-login-shell
+  package: libvirt-clients
+  query: shell
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: virt-pki-query-dn
+  package: libvirt-clients
+  query: shell
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: virt-pki-validate
+  package: libvirt-clients
+  query: shell
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    optarg: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: posh
+  package: posh
+  query: shell
+  test_program: true
+  has_label: true
+  meta_results:
+    argvInProgram: true
+    source: true
+    openCallWithFlow: true
+    fileDesc: true
+    execCallsWithFlow: true
+    executeFileFlows: true
+    executeFlows: true
+    resultFlows: true
+  final_result: true
+  classification: True positive
+- program: sysctl
+  package: procps
+  query: shell
+  test_program: true
+  has_label: true
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    optarg: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: False negative
+- program: top
+  package: procps
+  query: shell
+  test_program: true
+  has_label: true
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    optarg: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: False negative
+- program: watch
+  package: procps
+  query: shell
+  test_program: true
+  has_label: true
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    optarg: true
+    source: true
+    execCallsWithFlow: true
+    systemCallsWithFlow: true
+    executeFileFlows: true
+    executeFlows: true
+    resultFlows: true
+  final_result: true
+  classification: True positive
+- program: free
+  package: procps
+  query: shell
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    optarg: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: kill
+  package: procps
+  query: shell
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    optarg: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: pgrep
+  package: procps
+  query: shell
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    optarg: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: pmap
+  package: procps
+  query: shell
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    optarg: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: ps
+  package: procps
+  query: shell
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: pwdx
+  package: procps
+  query: shell
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: skill
+  package: procps
+  query: shell
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    optarg: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: slabtop
+  package: procps
+  query: shell
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    optarg: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: tload
+  package: procps
+  query: shell
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    optarg: true
+    source: true
+    openCallWithFlow: true
+    fileDesc: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: uptime
+  package: procps
+  query: shell
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: w
+  package: procps
+  query: shell
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: slsh
+  package: slsh
+  query: shell
+  test_program: true
+  has_label: true
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: False negative
+- program: tar
+  package: tar
+  query: shell
+  test_program: true
+  has_label: true
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: False negative
+- program: tdbtool
+  package: tdb-tools
+  query: shell
+  test_program: true
+  has_label: true
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: False negative
+- program: tdbbackup
+  package: tdb-tools
+  query: shell
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    optarg: true
+    source: true
+    openCallWithFlow: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: tdbdump
+  package: tdb-tools
+  query: shell
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    optarg: true
+    source: true
+    openCallWithFlow: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: tdbrestore
+  package: tdb-tools
+  query: shell
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    openCallWithFlow: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: tftp
+  package: tftp-hpa
+  query: shell
+  test_program: true
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: True negative
+- program: time
+  package: time
+  query: shell
+  test_program: true
+  has_label: true
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    optarg: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: False negative
+- program: tmate
+  package: tmate
+  query: shell
+  test_program: true
+  has_label: true
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: False negative
+- program: tor
+  package: tor
+  query: shell
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: tor-gencert
+  package: tor
+  query: shell
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: tor-print-ed-signing-cert
+  package: tor
+  query: shell
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    openCallWithFlow: true
+    fileDesc: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: tor-resolve
+  package: tor
+  query: shell
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: w3m
+  package: w3m
+  query: shell
+  test_program: true
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: True negative
+- program: whiptail
+  package: whiptail
+  query: shell
+  test_program: true
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    openCallWithFlow: true
+    fileDesc: true
+    resultFlows: false
+  final_result: false
+  classification: True negative
+- program: whois
+  package: whois
+  query: shell
+  test_program: true
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    optarg: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: True negative
+- program: mkpasswd
+  package: whois
+  query: shell
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    optarg: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: xmodmap
+  package: x11-xserver-utils
+  query: shell
+  test_program: true
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: True negative
+- program: iceauth
+  package: x11-xserver-utils
+  query: shell
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: sessreg
+  package: x11-xserver-utils
+  query: shell
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: showrgb
+  package: x11-xserver-utils
+  query: shell
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: xcmsdb
+  package: x11-xserver-utils
+  query: shell
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: xgamma
+  package: x11-xserver-utils
+  query: shell
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: xhost
+  package: x11-xserver-utils
+  query: shell
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: xrandr
+  package: x11-xserver-utils
+  query: shell
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: xrdb
+  package: x11-xserver-utils
+  query: shell
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: xrefresh
+  package: x11-xserver-utils
+  query: shell
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: xset
+  package: x11-xserver-utils
+  query: shell
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: xsetmode
+  package: x11-xserver-utils
+  query: shell
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: xsetroot
+  package: x11-xserver-utils
+  query: shell
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: xstdcmap
+  package: x11-xserver-utils
+  query: shell
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: xvidtune
+  package: x11-xserver-utils
+  query: shell
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: zathura
+  package: zathura
+  query: shell
+  test_program: true
+  has_label: true
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: False negative
+- program: zathura-sandbox
+  package: zathura
+  query: shell
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: setfacl
+  package: acl
+  query: shell
+  test_program: true
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    optarg: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: True negative
+- program: chacl
+  package: acl
+  query: shell
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: getfacl
+  package: acl
+  query: shell
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: bc
+  package: bc
+  query: shell
+  test_program: true
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: True negative
+- program: alpine
+  package: alpine
+  query: shell
+  test_program: true
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: True negative
+- program: rpdump
+  package: alpine
+  query: shell
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: rpload
+  package: alpine
+  query: shell
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: setcap
+  package: libcap2-bin
+  query: shell
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: dmsetup
+  package: dmsetup
+  query: shell
+  test_program: true
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: True negative
+- program: pexec
+  package: pexec
+  query: shell
+  test_program: true
+  has_label: true
+  meta_results:
+    argvInProgram: true
+    source: true
+    openCallWithFlow: true
+    execCallsWithFlow: true
+    executeFileFlows: true
+    executeFlows: true
+    resultFlows: true
+  final_result: true
+  classification: True positive
+- program: php
+  package: php-cli
+  query: shell
+  test_program: true
+  has_label: true
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: False negative
+- program: chage
+  package: passwd
+  query: shell
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    optarg: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: chgpasswd
+  package: passwd
+  query: shell
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    optarg: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: chpasswd
+  package: passwd
+  query: shell
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    optarg: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: expiry
+  package: passwd
+  query: shell
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: gpasswd
+  package: passwd
+  query: shell
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    optarg: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: groupadd
+  package: passwd
+  query: shell
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    optarg: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: groupdel
+  package: passwd
+  query: shell
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: groupmems
+  package: passwd
+  query: shell
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    optarg: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: groupmod
+  package: passwd
+  query: shell
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    optarg: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: grpck
+  package: passwd
+  query: shell
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: grpconv
+  package: passwd
+  query: shell
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: grpunconv
+  package: passwd
+  query: shell
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: lastlog
+  package: passwd
+  query: shell
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    optarg: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: newgrp
+  package: passwd
+  query: shell
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    execCallsWithFlow: true
+    executeFileFlows: true
+    executeFlows: true
+    resultFlows: true
+  final_result: true
+  classification: null
+- program: newusers
+  package: passwd
+  query: shell
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: passwd
+  package: passwd
+  query: shell
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    optarg: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: pwck
+  package: passwd
+  query: shell
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: pwconv
+  package: passwd
+  query: shell
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: pwunconv
+  package: passwd
+  query: shell
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: useradd
+  package: passwd
+  query: shell
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    optarg: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: userdel
+  package: passwd
+  query: shell
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    source: true
+    execCallsWithFlow: true
+    executeFileFlows: true
+    executeFlows: true
+    resultFlows: true
+  final_result: true
+  classification: null
+- program: usermod
+  package: passwd
+  query: shell
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    optarg: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null

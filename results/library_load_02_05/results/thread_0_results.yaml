@@ -1,0 +1,2308 @@
+- program: setfacl
+  package: acl
+  query: library_load
+  test_program: true
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    optarg: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: True negative
+- program: chacl
+  package: acl
+  query: library_load
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: getfacl
+  package: acl
+  query: library_load
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: basez
+  package: basez
+  query: library_load
+  test_program: true
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: True negative
+- program: bc
+  package: bc
+  query: library_load
+  test_program: true
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: True negative
+- program: dc
+  package: dc
+  query: library_load
+  test_program: true
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    optarg: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: True negative
+- program: host
+  package: bind9-host
+  query: library_load
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: netscsid
+  package: wodim
+  query: library_load
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: readom
+  package: wodim
+  query: library_load
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: wodim
+  package: wodim
+  query: library_load
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: crontab
+  package: cron
+  query: library_load
+  test_program: true
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    optarg: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: True negative
+- program: cron
+  package: cron
+  query: library_load
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    optarg: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: csh
+  package: csh
+  query: library_load
+  test_program: true
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: True negative
+- program: cancel
+  package: cups-client
+  query: library_load
+  test_program: true
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: True negative
+- program: lp
+  package: cups-client
+  query: library_load
+  test_program: true
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: True negative
+- program: cupsaccept
+  package: cups-client
+  query: library_load
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: cupsctl
+  package: cups-client
+  query: library_load
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: cupstestppd
+  package: cups-client
+  query: library_load
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: lpadmin
+  package: cups-client
+  query: library_load
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: lpinfo
+  package: cups-client
+  query: library_load
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: lpmove
+  package: cups-client
+  query: library_load
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: lpoptions
+  package: cups-client
+  query: library_load
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: lpstat
+  package: cups-client
+  query: library_load
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: dash
+  package: dash
+  query: library_load
+  test_program: true
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: True negative
+- program: run-parts
+  package: debianutils
+  query: library_load
+  test_program: true
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    optarg: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: True negative
+- program: ischroot
+  package: debianutils
+  query: library_load
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: tempfile
+  package: debianutils
+  query: library_load
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    optarg: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: dialog
+  package: dialog
+  query: library_load
+  test_program: true
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: True negative
+- program: dmidecode
+  package: dmidecode
+  query: library_load
+  test_program: true
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: True negative
+- program: biosdecode
+  package: dmidecode
+  query: library_load
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    optarg: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: ownership
+  package: dmidecode
+  query: library_load
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    optarg: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: vpddecode
+  package: dmidecode
+  query: library_load
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: dpkg
+  package: dpkg
+  query: library_load
+  test_program: true
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: True negative
+- program: start-stop-daemon
+  package: dpkg
+  query: library_load
+  test_program: true
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    optarg: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: True negative
+- program: update-alternatives
+  package: dpkg
+  query: library_load
+  test_program: true
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: True negative
+- program: emacs
+  package: emacs-gtk
+  query: library_load
+  test_program: true
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: True negative
+- program: emacsclient
+  package: emacs-gtk
+  query: library_load
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: cobc
+  package: gnucobol
+  query: library_load
+  test_program: true
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: True negative
+- program: cobcrun
+  package: gnucobol
+  query: library_load
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    dlopenCallsWithFlow: true
+    resultFlows: true
+  final_result: true
+  classification: null
+- program: gzip
+  package: gzip
+  query: library_load
+  test_program: true
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    optarg: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: True negative
+- program: hping3
+  package: hping3
+  query: library_load
+  test_program: true
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: True negative
+- program: ftp
+  package: inetutils-ftp
+  query: library_load
+  test_program: true
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: True negative
+- program: syslogd
+  package: inetutils-syslogd
+  query: library_load
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: telnet
+  package: inetutils-telnet
+  query: library_load
+  test_program: true
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: True negative
+- program: bridge
+  package: iproute2
+  query: library_load
+  test_program: true
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: True negative
+- program: ip
+  package: iproute2
+  query: library_load
+  test_program: true
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: True negative
+- program: ss
+  package: iproute2
+  query: library_load
+  test_program: true
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    optarg: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: True negative
+- program: arpd
+  package: iproute2
+  query: library_load
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    optarg: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: dcb
+  package: iproute2
+  query: library_load
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    optarg: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: devlink
+  package: iproute2
+  query: library_load
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    optarg: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: genl
+  package: iproute2
+  query: library_load
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    dlopenCallsWithFlow: true
+    resultFlows: true
+  final_result: true
+  classification: null
+- program: ifstat
+  package: iproute2
+  query: library_load
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    optarg: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: lnstat
+  package: iproute2
+  query: library_load
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    optarg: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: nstat
+  package: iproute2
+  query: library_load
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    optarg: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: rdma
+  package: iproute2
+  query: library_load
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    optarg: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: rtacct
+  package: iproute2
+  query: library_load
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    optarg: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: rtmon
+  package: iproute2
+  query: library_load
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: tc
+  package: iproute2
+  query: library_load
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: tipc
+  package: iproute2
+  query: library_load
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: vdpa
+  package: iproute2
+  query: library_load
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: dmsetup
+  package: dmsetup
+  query: library_load
+  test_program: true
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: True negative
+- program: lvmlockctl
+  package: lvm2-lockd
+  query: library_load
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    optarg: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: make
+  package: make
+  query: library_load
+  test_program: true
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    optarg: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: True negative
+- program: ascii-xfr
+  package: minicom
+  query: library_load
+  test_program: true
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    optarg: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: True negative
+- program: minicom
+  package: minicom
+  query: library_load
+  test_program: true
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    optarg: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: True negative
+- program: runscript
+  package: minicom
+  query: library_load
+  test_program: true
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: True negative
+- program: ksh
+  package: mksh
+  query: library_load
+  test_program: true
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: True negative
+- program: mtr
+  package: mtr
+  query: library_load
+  test_program: true
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    optarg: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: True negative
+- program: mtr-packet
+  package: mtr
+  query: library_load
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: nano
+  package: nano
+  query: library_load
+  test_program: true
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    optarg: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: True negative
+- program: rlogin
+  package: rsh-client
+  query: library_load
+  test_program: true
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    optarg: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: True negative
+- program: rcp
+  package: rsh-client
+  query: library_load
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: rsh
+  package: rsh-client
+  query: library_load
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    optarg: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: ntpd
+  package: ntp
+  query: library_load
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: ntpdc
+  package: ntp
+  query: library_load
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: ntpq
+  package: ntp
+  query: library_load
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: ntptrace
+  package: ntp
+  query: library_load
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: openssl
+  package: openssl
+  query: library_load
+  test_program: true
+  has_label: true
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: False negative
+- program: psftp
+  package: putty-tools
+  query: library_load
+  test_program: true
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: True negative
+- program: plink
+  package: putty-tools
+  query: library_load
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: psusan
+  package: putty-tools
+  query: library_load
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: redis
+  package: _redis
+  query: library_load
+  test_program: true
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: True negative
+- program: rsync
+  package: rsync
+  query: library_load
+  test_program: true
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: True negative
+- program: scanmem
+  package: scanmem
+  query: library_load
+  test_program: true
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    optarg: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: True negative
+- program: scrot
+  package: scrot
+  query: library_load
+  test_program: true
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: True negative
+- program: sed
+  package: sed
+  query: library_load
+  test_program: true
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    optarg: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: True negative
+- program: getsubids
+  package: uidmap
+  query: library_load
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: newgidmap
+  package: uidmap
+  query: library_load
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: newuidmap
+  package: uidmap
+  query: library_load
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: uudecode
+  package: sharutils
+  query: library_load
+  test_program: true
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: True negative
+- program: uuencode
+  package: sharutils
+  query: library_load
+  test_program: true
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: True negative
+- program: shar
+  package: sharutils
+  query: library_load
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: unshar
+  package: sharutils
+  query: library_load
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: strace
+  package: strace
+  query: library_load
+  test_program: true
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    optarg: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: True negative
+- program: tar
+  package: tar
+  query: library_load
+  test_program: true
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: True negative
+- program: tdbtool
+  package: tdb-tools
+  query: library_load
+  test_program: true
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: True negative
+- program: tdbbackup
+  package: tdb-tools
+  query: library_load
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    optarg: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: tdbdump
+  package: tdb-tools
+  query: library_load
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    optarg: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: tdbrestore
+  package: tdb-tools
+  query: library_load
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: tftp
+  package: tftp-hpa
+  query: library_load
+  test_program: true
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: True negative
+- program: time
+  package: time
+  query: library_load
+  test_program: true
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    optarg: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: True negative
+- program: tmate
+  package: tmate
+  query: library_load
+  test_program: true
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: True negative
+- program: unzip
+  package: unzip
+  query: library_load
+  test_program: true
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: True negative
+- program: valgrind
+  package: valgrind
+  query: library_load
+  test_program: true
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: True negative
+- program: vgdb
+  package: valgrind
+  query: library_load
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: whiptail
+  package: whiptail
+  query: library_load
+  test_program: true
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: True negative
+- program: whois
+  package: whois
+  query: library_load
+  test_program: true
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    optarg: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: True negative
+- program: mkpasswd
+  package: whois
+  query: library_load
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    optarg: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: atobm
+  package: x11-apps
+  query: library_load
+  test_program: true
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: True negative
+- program: xmore
+  package: x11-apps
+  query: library_load
+  test_program: true
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: True negative
+- program: bitmap
+  package: x11-apps
+  query: library_load
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: bmtoa
+  package: x11-apps
+  query: library_load
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: ico
+  package: x11-apps
+  query: library_load
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: oclock
+  package: x11-apps
+  query: library_load
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: rendercheck
+  package: x11-apps
+  query: library_load
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    optarg: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: transset
+  package: x11-apps
+  query: library_load
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    optarg: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: x11perf
+  package: x11-apps
+  query: library_load
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: xbiff
+  package: x11-apps
+  query: library_load
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: xcalc
+  package: x11-apps
+  query: library_load
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: xclipboard
+  package: x11-apps
+  query: library_load
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: xclock
+  package: x11-apps
+  query: library_load
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: xconsole
+  package: x11-apps
+  query: library_load
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: xcursorgen
+  package: x11-apps
+  query: library_load
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: xditview
+  package: x11-apps
+  query: library_load
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: xedit
+  package: x11-apps
+  query: library_load
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: xeyes
+  package: x11-apps
+  query: library_load
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: xgc
+  package: x11-apps
+  query: library_load
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: xload
+  package: x11-apps
+  query: library_load
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: xlogo
+  package: x11-apps
+  query: library_load
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: xmag
+  package: x11-apps
+  query: library_load
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: xman
+  package: x11-apps
+  query: library_load
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: xwd
+  package: x11-apps
+  query: library_load
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: xwud
+  package: x11-apps
+  query: library_load
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: zip
+  package: zip
+  query: library_load
+  test_program: true
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: True negative
+- program: dig
+  package: bind9-dnsutils
+  query: library_load
+  test_program: true
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: True negative
+- program: delv
+  package: bind9-dnsutils
+  query: library_load
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: dnstap-read
+  package: bind9-dnsutils
+  query: library_load
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: mdig
+  package: bind9-dnsutils
+  query: library_load
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: nslookup
+  package: bind9-dnsutils
+  query: library_load
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: nsupdate
+  package: bind9-dnsutils
+  query: library_load
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: pageant
+  package: putty
+  query: library_load
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: putty
+  package: putty
+  query: library_load
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: dvips
+  package: texlive-binaries
+  query: library_load
+  test_program: true
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: True negative
+- program: luatex
+  package: texlive-binaries
+  query: library_load
+  test_program: true
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: True negative
+- program: afm2pl
+  package: texlive-binaries
+  query: library_load
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: afm2tfm
+  package: texlive-binaries
+  query: library_load
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: autosp
+  package: texlive-binaries
+  query: library_load
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: axohelp
+  package: texlive-binaries
+  query: library_load
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: bibtex
+  package: texlive-binaries
+  query: library_load
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: chkdvifont
+  package: texlive-binaries
+  query: library_load
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: ctangle
+  package: texlive-binaries
+  query: library_load
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: ctie
+  package: texlive-binaries
+  query: library_load
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: detex
+  package: texlive-binaries
+  query: library_load
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: devnag
+  package: texlive-binaries
+  query: library_load
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: disdvi
+  package: texlive-binaries
+  query: library_load
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: dt2dv
+  package: texlive-binaries
+  query: library_load
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: dv2dt
+  package: texlive-binaries
+  query: library_load
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: dvi2tty
+  package: texlive-binaries
+  query: library_load
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: dvibook
+  package: texlive-binaries
+  query: library_load
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    optarg: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: dviconcat
+  package: texlive-binaries
+  query: library_load
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    optarg: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: dvihp
+  package: texlive-binaries
+  query: library_load
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: dvipdfmx
+  package: texlive-binaries
+  query: library_load
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    optarg: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: dvipos
+  package: texlive-binaries
+  query: library_load
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    optarg: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: dviselect
+  package: texlive-binaries
+  query: library_load
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    optarg: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: dvispc
+  package: texlive-binaries
+  query: library_load
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: dvitodvi
+  package: texlive-binaries
+  query: library_load
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    optarg: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: gsftopk
+  package: texlive-binaries
+  query: library_load
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: kpsestat
+  package: texlive-binaries
+  query: library_load
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: kpsewhich
+  package: texlive-binaries
+  query: library_load
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: mag
+  package: texlive-binaries
+  query: library_load
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: makeindex
+  package: texlive-binaries
+  query: library_load
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: makejvf
+  package: texlive-binaries
+  query: library_load
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    optarg: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: mendex
+  package: texlive-binaries
+  query: library_load
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: mkocp
+  package: texlive-binaries
+  query: library_load
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: mkofm
+  package: texlive-binaries
+  query: library_load
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: mktexlsr
+  package: texlive-binaries
+  query: library_load
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: mktexmf
+  package: texlive-binaries
+  query: library_load
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: mktexpk
+  package: texlive-binaries
+  query: library_load
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: mktextfm
+  package: texlive-binaries
+  query: library_load
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: msxlint
+  package: texlive-binaries
+  query: library_load
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: omfonts
+  package: texlive-binaries
+  query: library_load
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: otp2ocp
+  package: texlive-binaries
+  query: library_load
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: outocp
+  package: texlive-binaries
+  query: library_load
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: pdfclose
+  package: texlive-binaries
+  query: library_load
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: pdfopen
+  package: texlive-binaries
+  query: library_load
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: pfb2pfa
+  package: texlive-binaries
+  query: library_load
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: pk2bm
+  package: texlive-binaries
+  query: library_load
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: prepmx
+  package: texlive-binaries
+  query: library_load
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: ps2pk
+  package: texlive-binaries
+  query: library_load
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: ptekf
+  package: texlive-binaries
+  query: library_load
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: synctex
+  package: texlive-binaries
+  query: library_load
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: tex2aspc
+  package: texlive-binaries
+  query: library_load
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: tie
+  package: texlive-binaries
+  query: library_load
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: ttf2afm
+  package: texlive-binaries
+  query: library_load
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    optarg: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: ttf2pk
+  package: texlive-binaries
+  query: library_load
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: ttf2tfm
+  package: texlive-binaries
+  query: library_load
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: ttfdump
+  package: texlive-binaries
+  query: library_load
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    optarg: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: vlna
+  package: texlive-binaries
+  query: library_load
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: xdvi
+  package: texlive-binaries
+  query: library_load
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: xml2pmx
+  package: texlive-binaries
+  query: library_load
+  test_program: false
+  has_label: false
+  meta_results:
+    resultFlows: false
+  final_result: false
+  classification: null

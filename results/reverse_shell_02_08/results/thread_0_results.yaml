@@ -1,0 +1,1040 @@
+- program: setfacl
+  package: acl
+  query: reverse_shell
+  test_program: true
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    optarg: true
+    source: true
+    sockAddr: true
+    resultFlows: false
+  final_result: false
+  classification: True negative
+- program: chacl
+  package: acl
+  query: reverse_shell
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    source: true
+    sockAddr: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: getfacl
+  package: acl
+  query: reverse_shell
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    source: true
+    sockAddr: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: bconsole
+  package: _bconsole
+  query: reverse_shell
+  test_program: true
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    optarg: true
+    source: true
+    sockAddr: true
+    execCallsWithFlow: true
+    executeFileFlows: true
+    executeFlows: true
+    resultFlows: false
+  final_result: false
+  classification: True negative
+- program: icedax
+  package: icedax
+  query: reverse_shell
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    sockAddr: true
+    execCallsWithFlow: true
+    executeFileFlows: true
+    executeFlows: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: netscsid
+  package: wodim
+  query: reverse_shell
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    sockAddr: true
+    execCallsWithFlow: true
+    executeFileFlows: true
+    executeFlows: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: readom
+  package: wodim
+  query: reverse_shell
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    sockAddr: true
+    execCallsWithFlow: true
+    executeFileFlows: true
+    executeFlows: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: wodim
+  package: wodim
+  query: reverse_shell
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    sockAddr: true
+    execCallsWithFlow: true
+    executeFileFlows: true
+    executeFlows: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: cpio
+  package: cpio
+  query: reverse_shell
+  test_program: true
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    sockAddr: true
+    resultFlows: false
+  final_result: false
+  classification: True negative
+- program: python
+  package: python3
+  query: reverse_shell
+  test_program: true
+  has_label: true
+  meta_results:
+    argvInProgram: true
+    source: true
+    sockAddr: true
+    resultFlows: false
+  final_result: false
+  classification: False negative
+- program: expect
+  package: expect
+  query: reverse_shell
+  test_program: true
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    source: true
+    sockAddr: true
+    resultFlows: false
+  final_result: false
+  classification: True negative
+- program: file
+  package: file
+  query: reverse_shell
+  test_program: true
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    optarg: true
+    source: true
+    sockAddr: true
+    openCallWithFlow: true
+    fileDesc: true
+    resultFlows: false
+  final_result: false
+  classification: True negative
+- program: finger
+  package: finger
+  query: reverse_shell
+  test_program: true
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    source: true
+    sockAddr: true
+    connectCallsWithFlow: true
+    connectSockFd: true
+    resultFlows: false
+  final_result: false
+  classification: True negative
+- program: fping
+  package: fping
+  query: reverse_shell
+  test_program: true
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    getaddrinfoCallsWithFlow: true
+    sockAddr: true
+    resultFlows: false
+  final_result: false
+  classification: True negative
+- program: gimp
+  package: gimp
+  query: reverse_shell
+  test_program: true
+  has_label: true
+  meta_results:
+    argvInProgram: true
+    source: true
+    sockAddr: true
+    resultFlows: false
+  final_result: false
+  classification: False negative
+- program: ftp
+  package: inetutils-ftp
+  query: reverse_shell
+  test_program: true
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    getaddrinfoCallsWithFlow: true
+    sockAddr: true
+    connectCallsWithFlow: true
+    connectSockFd: true
+    resultFlows: false
+  final_result: false
+  classification: True negative
+- program: bridge
+  package: iproute2
+  query: reverse_shell
+  test_program: true
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    sockAddr: true
+    openCallWithFlow: true
+    fileDesc: true
+    resultFlows: false
+  final_result: false
+  classification: True negative
+- program: ip
+  package: iproute2
+  query: reverse_shell
+  test_program: true
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    sockAddr: true
+    openCallWithFlow: true
+    fileDesc: true
+    resultFlows: false
+  final_result: false
+  classification: True negative
+- program: ss
+  package: iproute2
+  query: reverse_shell
+  test_program: true
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    optarg: true
+    source: true
+    sockAddr: true
+    openCallWithFlow: true
+    fileDesc: true
+    resultFlows: false
+  final_result: false
+  classification: True negative
+- program: arpd
+  package: iproute2
+  query: reverse_shell
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    optarg: true
+    source: true
+    sockAddr: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: dcb
+  package: iproute2
+  query: reverse_shell
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    optarg: true
+    source: true
+    sockAddr: true
+    openCallWithFlow: true
+    fileDesc: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: devlink
+  package: iproute2
+  query: reverse_shell
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    optarg: true
+    source: true
+    sockAddr: true
+    openCallWithFlow: true
+    fileDesc: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: genl
+  package: iproute2
+  query: reverse_shell
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    sockAddr: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: ifstat
+  package: iproute2
+  query: reverse_shell
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    optarg: true
+    source: true
+    sockAddr: true
+    openCallWithFlow: true
+    fileDesc: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: lnstat
+  package: iproute2
+  query: reverse_shell
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    optarg: true
+    source: true
+    sockAddr: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: nstat
+  package: iproute2
+  query: reverse_shell
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    optarg: true
+    source: true
+    sockAddr: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: rdma
+  package: iproute2
+  query: reverse_shell
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    optarg: true
+    source: true
+    sockAddr: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: rtacct
+  package: iproute2
+  query: reverse_shell
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    optarg: true
+    source: true
+    sockAddr: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: rtmon
+  package: iproute2
+  query: reverse_shell
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    sockAddr: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: tc
+  package: iproute2
+  query: reverse_shell
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    sockAddr: true
+    openCallWithFlow: true
+    fileDesc: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: tipc
+  package: iproute2
+  query: reverse_shell
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    source: true
+    sockAddr: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: vdpa
+  package: iproute2
+  query: reverse_shell
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    source: true
+    sockAddr: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: make
+  package: make
+  query: reverse_shell
+  test_program: true
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    optarg: true
+    source: true
+    sockAddr: true
+    execCallsWithFlow: true
+    executeFileFlows: true
+    executeFlows: true
+    resultFlows: false
+  final_result: false
+  classification: True negative
+- program: ksh
+  package: mksh
+  query: reverse_shell
+  test_program: true
+  has_label: true
+  meta_results:
+    argvInProgram: true
+    source: true
+    sockAddr: true
+    openCallWithFlow: true
+    fileDesc: true
+    resultFlows: false
+  final_result: false
+  classification: False negative
+- program: mtr
+  package: mtr
+  query: reverse_shell
+  test_program: true
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    optarg: true
+    source: true
+    getaddrinfoCallsWithFlow: true
+    sockAddr: true
+    connectCallsWithFlow: true
+    connectSockFd: true
+    resultFlows: false
+  final_result: false
+  classification: True negative
+- program: mtr-packet
+  package: mtr
+  query: reverse_shell
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    sockAddr: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: ncftp
+  package: ncftp
+  query: reverse_shell
+  test_program: true
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    sockAddr: true
+    popenCallsWithFlow: true
+    executeFileFlows: true
+    executeFlows: true
+    resultFlows: false
+  final_result: false
+  classification: True negative
+- program: ncftpbatch
+  package: ncftp
+  query: reverse_shell
+  test_program: false
+  has_label: false
+  meta_results:
+    popenCallsWithFlow: true
+    executeFileFlows: true
+    executeFlows: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: ncftpget
+  package: ncftp
+  query: reverse_shell
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    sockAddr: true
+    openCallWithFlow: true
+    fileDesc: true
+    popenCallsWithFlow: true
+    executeFileFlows: true
+    executeFlows: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: ncftpls
+  package: ncftp
+  query: reverse_shell
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    sockAddr: true
+    popenCallsWithFlow: true
+    executeFileFlows: true
+    executeFlows: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: ncftpput
+  package: ncftp
+  query: reverse_shell
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    sockAddr: true
+    openCallWithFlow: true
+    popenCallsWithFlow: true
+    executeFileFlows: true
+    executeFlows: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: awk
+  package: original-awk
+  query: reverse_shell
+  test_program: true
+  has_label: true
+  meta_results:
+    argvInProgram: true
+    source: true
+    sockAddr: true
+    resultFlows: false
+  final_result: false
+  classification: False negative
+- program: pkaction
+  package: polkitd
+  query: reverse_shell
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    sockAddr: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: pkcheck
+  package: polkitd
+  query: reverse_shell
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    sockAddr: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: pkttyagent
+  package: polkitd
+  query: reverse_shell
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    sockAddr: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: polkitd
+  package: polkitd
+  query: reverse_shell
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    sockAddr: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: psftp
+  package: putty-tools
+  query: reverse_shell
+  test_program: true
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    sockAddr: true
+    execCallsWithFlow: true
+    executeFileFlows: true
+    executeFlows: true
+    resultFlows: false
+  final_result: false
+  classification: True negative
+- program: plink
+  package: putty-tools
+  query: reverse_shell
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    sockAddr: true
+    execCallsWithFlow: true
+    executeFileFlows: true
+    executeFlows: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: psusan
+  package: putty-tools
+  query: reverse_shell
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    sockAddr: true
+    execCallsWithFlow: true
+    executeFileFlows: true
+    executeFlows: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: rc
+  package: rc
+  query: reverse_shell
+  test_program: true
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    sockAddr: true
+    execCallsWithFlow: true
+    executeFileFlows: true
+    executeFlows: true
+    resultFlows: false
+  final_result: false
+  classification: True negative
+- program: redis
+  package: _redis
+  query: reverse_shell
+  test_program: true
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    sockAddr: true
+    resultFlows: false
+  final_result: false
+  classification: True negative
+- program: sash
+  package: sash
+  query: reverse_shell
+  test_program: true
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    sockAddr: true
+    resultFlows: false
+  final_result: false
+  classification: True negative
+- program: scanmem
+  package: scanmem
+  query: reverse_shell
+  test_program: true
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    optarg: true
+    source: true
+    sockAddr: true
+    resultFlows: false
+  final_result: false
+  classification: True negative
+- program: screen
+  package: screen
+  query: reverse_shell
+  test_program: true
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    sockAddr: true
+    execCallsWithFlow: true
+    executeFileFlows: true
+    executeFlows: true
+    resultFlows: false
+  final_result: false
+  classification: True negative
+- program: scrot
+  package: scrot
+  query: reverse_shell
+  test_program: true
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    source: true
+    sockAddr: true
+    resultFlows: false
+  final_result: false
+  classification: True negative
+- program: sed
+  package: sed
+  query: reverse_shell
+  test_program: true
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    optarg: true
+    source: true
+    sockAddr: true
+    resultFlows: false
+  final_result: false
+  classification: True negative
+- program: getsubids
+  package: uidmap
+  query: reverse_shell
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    sockAddr: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: newgidmap
+  package: uidmap
+  query: reverse_shell
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    sockAddr: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: newuidmap
+  package: uidmap
+  query: reverse_shell
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    sockAddr: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: unsquashfs
+  package: squashfs-tools
+  query: reverse_shell
+  test_program: true
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    sockAddr: true
+    openCallWithFlow: true
+    fileDesc: true
+    execCallsWithFlow: true
+    executeFileFlows: true
+    executeFlows: true
+    resultFlows: false
+  final_result: false
+  classification: True negative
+- program: mksquashfs
+  package: squashfs-tools
+  query: reverse_shell
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    sockAddr: true
+    execCallsWithFlow: true
+    executeFileFlows: true
+    executeFlows: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: busctl
+  package: systemd
+  query: reverse_shell
+  test_program: true
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    optarg: true
+    source: true
+    sockAddr: true
+    execCallsWithFlow: true
+    executeFileFlows: true
+    executeFlows: true
+    resultFlows: false
+  final_result: false
+  classification: True negative
+- program: journalctl
+  package: systemd
+  query: reverse_shell
+  test_program: true
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    optarg: true
+    source: true
+    sockAddr: true
+    execCallsWithFlow: true
+    executeFileFlows: true
+    executeFlows: true
+    resultFlows: false
+  final_result: false
+  classification: True negative
+- program: loginctl
+  package: systemd
+  query: reverse_shell
+  test_program: true
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    optarg: true
+    source: true
+    sockAddr: true
+    execCallsWithFlow: true
+    executeFileFlows: true
+    executeFlows: true
+    resultFlows: false
+  final_result: false
+  classification: True negative
+- program: systemctl
+  package: systemd
+  query: reverse_shell
+  test_program: true
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    optarg: true
+    source: true
+    sockAddr: true
+    execCallsWithFlow: true
+    executeFileFlows: true
+    executeFlows: true
+    resultFlows: false
+  final_result: false
+  classification: True negative
+- program: timedatectl
+  package: systemd
+  query: reverse_shell
+  test_program: true
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    optarg: true
+    source: true
+    sockAddr: true
+    execCallsWithFlow: true
+    executeFileFlows: true
+    executeFlows: true
+    resultFlows: false
+  final_result: false
+  classification: True negative
+- program: bootctl
+  package: systemd
+  query: reverse_shell
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    optarg: true
+    source: true
+    sockAddr: true
+    execCallsWithFlow: true
+    executeFileFlows: true
+    executeFlows: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: hostnamectl
+  package: systemd
+  query: reverse_shell
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    optarg: true
+    source: true
+    sockAddr: true
+    execCallsWithFlow: true
+    executeFileFlows: true
+    executeFlows: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: localectl
+  package: systemd
+  query: reverse_shell
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    optarg: true
+    source: true
+    sockAddr: true
+    execCallsWithFlow: true
+    executeFileFlows: true
+    executeFlows: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: networkctl
+  package: systemd
+  query: reverse_shell
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    optarg: true
+    source: true
+    sockAddr: true
+    execCallsWithFlow: true
+    executeFileFlows: true
+    executeFlows: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: resolvectl
+  package: systemd
+  query: reverse_shell
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    optarg: true
+    source: true
+    sockAddr: true
+    execCallsWithFlow: true
+    executeFileFlows: true
+    executeFlows: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: 'yes'
+  package: coreutils
+  query: reverse_shell
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    source: true
+    sockAddr: true
+    execCallsWithFlow: true
+    executeFileFlows: true
+    executeFlows: true
+    resultFlows: false
+  final_result: false
+  classification: null

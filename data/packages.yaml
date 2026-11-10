@@ -1,0 +1,587 @@
+# - name: name of the package referred by the programs in it
+#   path: path used to build CPG in joern, relative to "source_code"
+
+- name: acl
+  path: acl
+  
+- name: alpine
+  path: alpine
+  
+- name: alpine-pico
+  path: alpine
+
+- name: apache2-suexec-custom
+  path: apache2
+
+- name: apache2-utils
+  path: apache2
+
+- name: apache2
+  path: apache2
+
+- name: arj
+  path: arj
+
+- name: at
+  path: at
+
+- name: basez
+  path: basez
+
+- name: bash
+  path: bash
+
+- name: _bconsole
+  path: bconsole/bacula/src
+
+- name: bc
+  path: bc
+  
+- name: dc
+  path: bc
+
+- name: bind9-dnsutils
+  path: bind9
+  
+- name: bind9-host
+  path: bind9
+  
+- name: bind9-utils
+  path: bind9
+  
+- name: bind9
+  path: bind9
+
+- name: binutils
+  path: binutils
+
+- name: busybox
+  path: busybox
+  
+- name: bzip2
+  path: bzip2
+
+- name: genisoimage
+  path: cdrkit
+  
+- name: icedax
+  path: cdrkit
+
+- name: wodim
+  path: cdrkit
+
+- name: clamav
+  path: clamav
+
+- name: coreutils
+  path: coreutils
+
+- name: cpio
+  path: cpio
+
+- name: cpulimit
+  path: cpulimit
+
+- name: python3
+  path: cpython
+
+- name: crash
+  path: crash
+
+- name: cron
+  path: cron
+
+- name: csh
+  path: csh
+
+- name: cups
+  path: cups
+
+- name: cups-client
+  path: cups
+
+- name: cups-bsd
+  path: cups
+
+- name: cups-daemon
+  path: cups
+
+- name: cups-ipp-utils
+  path: cups
+
+- name: curl
+  path: curl
+
+- name: daemontools
+  path: daemontools/daemontools-0.76/src
+
+- name: dash
+  path: dash
+
+- name: debianutils
+  path: debianutils
+
+- name: dialog
+  path: dialog
+
+- name: diffutils
+  path: diffutils
+
+- name: distcc
+  path: distcc
+
+- name: dmidecode
+  path: dmidecode
+
+- name: dos2unix
+  path: dos2unix
+
+- name: dpkg
+  path: dpkg
+
+- name: e2fsprogs
+  path: e2fsprogs
+
+- name: ed
+  path: ed
+  
+- name: emacs-gtk
+  path: emacs
+
+- name: enscript
+  path: enscript
+
+- name: expect
+  path: expect
+  
+- name: file
+  path: file/src
+  
+- name: findutils
+  path: findutils  
+
+- name: finger
+  path: finger
+  
+- name: fingerd
+  path: finger
+
+- name: fping
+  path: fping
+
+- name: gawk
+  path: gawk
+
+- name: gdb
+  path: gdb
+
+- name: gettext
+  path: gettext
+  
+- name: gettext-base
+  path: gettext
+
+- name: gimp
+  path: gimp
+  
+- name: git
+  path: git
+  
+- name: libglib2.0-dev-bin
+  path: glib
+  
+- name: libc-bin
+  path: glibc
+
+- name: gnucobol
+  path: gnucobol
+  
+- name: grep
+  path: grep
+
+- name: gzip
+  path: gzip
+
+- name: hostname
+  path: hostname
+
+- name: hping3
+  path: hping3
+
+- name: iftop
+  path: iftop
+
+- name: inetutils-ftp
+  path: inetutils
+
+- name: inetutils-ftpd
+  path: inetutils
+
+- name: inetutils-syslogd
+  path: inetutils
+
+- name: inetutils-talk
+  path: inetutils
+
+- name: inetutils-talkd
+  path: inetutils
+
+- name: inetutils-telnet
+  path: inetutils
+
+- name: inetutils-telnetd
+  path: inetutils
+
+- name: inetutils-traceroute
+  path: inetutils
+
+- name: iproute2
+  path: iproute2
+
+- name: iputils-arping
+  path: iputils
+
+- name: iputils-clockdiff
+  path: iputils
+
+- name: iputils-ping
+  path: iputils
+
+- name: iputils-tracepath
+  path: iputils
+
+- name: ispell
+  path: ispell
+
+- name: joe
+  path: joe/joe
+
+- name: jq
+  path: jq/src
+
+- name: kbd
+  path: kbd
+
+- name: krb5-user
+  path: krb5/src
+
+- name: less
+  path: less
+
+- name: links
+  path: links
+
+- name: libcap2-bin
+  path: libcap2-bin/progs
+
+- name: libvirt-clients
+  path: libvirt
+
+- name: linux-tools-common
+  path: linux/tools
+
+- name: ltrace
+  path: ltrace
+
+- name: lua5.4
+  path: lua
+
+- name: dmsetup
+  path: lvm2
+
+- name: lvm2
+  path: lvm2
+
+- name: lvm2-lockd
+  path: lvm2
+
+- name: mailutils-comsatd
+  path: mailutils
+
+- name: mailutils-imap4d
+  path: mailutils
+
+- name: mailutils-mda
+  path: mailutils
+
+- name: mailutils-pop3d
+  path: mailutils
+
+- name: mailutils
+  path: mailutils
+
+- name: make
+  path: make
+
+- name: man-db
+  path: man-db
+
+- name: mawk
+  path: mawk
+
+- name: minicom
+  path: minicom
+
+- name: mksh
+  path: mksh
+
+- name: mosquitto
+  path: mosquitto
+
+- name: mtr
+  path: mtr
+
+- name: multitime
+  path: multitime
+
+- name: nano
+  path: nano
+
+- name: nasm
+  path: nasm
+
+- name: ncftp
+  path: ncftp
+
+- name: ncurses-bin
+  path: ncurses
+
+- name: net-tools
+  path: net-tools
+
+- name: netcat-openbsd
+  path: netcat-bsd
+
+- name: netcat-traditional
+  path: netcat-traditional
+
+- name: rsh-client
+  path: netkit-rsh  
+
+- name: nftables
+  path: nftables
+
+- name: ntp
+  path: ntp
+
+- name: ntpdate
+  path: ntp
+
+- name: sntp
+  path: ntp
+
+- name: openssh-client
+  path: openssh
+
+- name: openssl
+  path: openssl
+
+- name: openvpn
+  path: openvpn
+
+- name: openwince-jtag
+  path: openwince-jtag
+
+- name: _opkg
+  path: opkg
+
+- name: original-awk
+  path: original-awk
+
+- name: pax
+  path: pax
+
+- name: pexec
+  path: pexec/src
+
+- name: php-cli
+  path: php
+
+- name: _pkg
+  path: pkg
+
+- name: pkexec
+  path: polkit
+
+- name: polkitd
+  path: polkit
+
+- name: posh
+  path: posh
+
+- name: postgresql-client-common
+  path: postgres
+
+- name: procps
+  path: procps
+
+- name: putty-tools
+  path: putty
+  
+- name: putty
+  path: putty
+  
+- name: rc
+  path: rc
+
+- name: _redis
+  path: redis
+
+- name: rlwrap
+  path: rlwrap
+
+- name: rpm
+  path: rpm
+
+- name: rsync
+  path: rsync
+
+- name: ruby
+  path: ruby
+
+- name: smbclient
+  path: samba
+
+- name: sash
+  path: sash
+
+- name: scanmem
+  path: scanmem
+
+- name: screen
+  path: screen
+
+- name: scrot
+  path: scrot
+
+- name: sed
+  path: sed
+
+- name: passwd
+  path: shadow-utils
+
+- name: uidmap
+  path: shadow-utils
+
+- name: sharutils
+  path: sharutils
+
+- name: slsh
+  path: slang2
+
+- name: socat
+  path: socat
+
+- name: squashfs-tools
+  path: squashfs-tools/squashfs-tools
+
+- name: sshpass
+  path: sshpass
+
+- name: strace
+  path: strace
+
+- name: sudo
+  path: sudo
+
+- name: sysstat
+  path: sysstat
+
+- name: systemd
+  path: systemd/src
+
+- name: tar
+  path: tar
+
+- name: tcpdump
+  path: tcpdump
+
+- name: tdb-tools
+  path: tdb-tools
+
+- name: texlive-binaries
+  path: texlive-bin
+
+- name: tftp-hpa
+  path: tftp-hpa
+
+- name: time
+  path: time
+
+- name: tk
+  path: tk
+
+- name: tmate
+  path: tmate
+
+- name: tmux
+  path: tmux
+
+- name: tor
+  path: tor
+
+- name: unzip
+  path: unzip
+
+- name: util-linux
+  path: util-linux
+
+- name: valgrind
+  path: valgrind
+
+- name: varnish
+  path: varnish
+
+- name: vim
+  path: vim/src
+
+- name: xxd
+  path: vim/src
+
+- name: w3m
+  path: w3m
+
+- name: wget
+  path: wget
+
+- name: whiptail
+  path: whiptail
+
+- name: whois
+  path: whois
+
+- name: tshark
+  path: wireshark
+
+- name: wireshark-common
+  path: wireshark
+
+- name: x11-apps
+  path: x11-apps
+  
+- name: x11-xserver-utils
+  path: x11-xserver-utils
+
+- name: xdotool
+  path: xdotool
+
+- name: xpad
+  path: xpad
+
+- name: xz-utils
+  path: xz
+
+- name: yash
+  path: yash
+
+- name: yelp
+  path: yelp
+
+- name: zathura
+  path: zathura
+
+- name: zip
+  path: zip
+
+- name: zsh
+  path: zsh

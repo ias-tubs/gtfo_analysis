@@ -1,0 +1,192 @@
+- program: sysctl
+  labels:
+  - command
+  type: indirect
+  details: does not execute the command directly, linux kernel does when core dump occurs
+
+- program: at
+  labels:
+  - command
+  type: indirect
+  details: commands are run by at daemon
+
+- program: split
+  labels:
+  - command
+  type: joern problem
+  details: probably global variable problem
+
+- program: crontab
+  labels:
+  - command
+  type: indirect
+  details: commands are run by cron daemon
+
+- program: tcpdump
+  labels:
+  - command
+  type: macro expansion
+  details: problem with conditional (#ifdef) 
+
+- program: expand
+  labels:
+  - file_read
+  type: joern problem
+  details: 1_doublePointerRef
+
+- program: unexpand
+  labels:
+  - file_read
+  type: joern problem
+  details: 1_doublePointerRef
+
+- program: dd
+  labels:
+  - file_read
+  type: joern problem
+  details: 2_globalVars
+
+- program: od
+  labels:
+  - file_read
+  type: joern problem
+  details: 1_doublePointerRef and 2_globalVars
+
+- program: paste
+  labels:
+  - file_read
+  type: joern problem
+  details: 4_ternaryOpCall
+
+- program: pr
+  labels:
+  - file_read
+  type: joern problem
+  details: 1_doublePointerRef
+
+- program: cmp
+  labels:
+  - file_read
+  type: joern problem
+  details: 5_variableAsIndex
+
+- program: diff
+  labels:
+  - file_read
+  type: joern problem
+  details: 6_condOpConditionDataflow
+
+- program: hexdump
+  labels:
+  - file_read
+  type: joern problem
+  details: 1_doublePointerRef
+
+- program: look
+  labels:
+  - file_read
+  type: joern problem
+  details: 1_doublePointerRef
+
+- program: more
+  labels:
+  - file_read
+  type: joern problem
+  details: 7_fieldAssignmentDataflow
+
+- program: dmesg
+  labels:
+  - file_read
+  type: joern problem
+  details: 7_fieldAssignmentDataflow
+
+- program: arj
+  labels:
+  - file_read
+  type: macro expansion
+  details: file_open (environ.c) nodes do not include fopen/fdopen
+
+- program: uniq
+  labels:
+  - file_read
+  type: joern problem
+  details: 5_variableAsIndex
+
+- program: cpio
+  labels:
+  - file_write
+  type: unclear
+  details: unresolved fuction rmtopen in util.c + rmtopen not reachable by argv
+
+- program: strace
+  labels:
+  - file_write
+  type: unclear
+  details: unresolved function gnulib? (getopt_long)
+
+- program: nc
+  labels:
+  - bind_shell
+  - reverse_shell
+  type: joern limitation
+  details: 2_globalVars
+
+- program: cupsfilter
+  labels:
+  - shell
+  type: joern limitation
+  details: 9_argIndex
+
+- program: runscript
+  labels:
+  - shell
+  type: joern limitation
+  details: 10_functionPointer
+
+- program: ssh-add
+  labels:
+  - shell
+  type: joern limitation
+  details: 9_argIndex
+
+- program: mkfs
+  labels:
+  - shell
+  type: joern limitation
+  details: 9_argIndex
+
+- program: filefrag
+  labels:
+  - all
+  type: makro
+  details: makro __linux__ is not set, normal main method is not generated (despite configure script)
+
+- program: tai64n
+  labels:
+  - all
+  type: main parameters
+  details: main method does not take parameters (stdin)
+
+- program: tai64nlocal
+  labels:
+  - all
+  type: main parameters
+  details: main method does not take parameters (stdin)
+
+- program: vcstime
+  labels:
+  - all
+  type: main parameters
+  details: main method does not take parameters (stdin)
+
+- program: ncftpbatch
+  labels:
+  - all
+  type: makro
+  details: makro HAVE_LONG_FILE_NAMES not defined, normal main method is not generated
+
+- program: xml2pmx
+  labels:
+  - all
+  type: main method
+  details: main method is named xmain

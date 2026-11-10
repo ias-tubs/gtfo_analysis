@@ -1,0 +1,441 @@
+- program: setfacl
+  package: acl
+  query: bind_shell
+  test_program: true
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    optarg: true
+    source: true
+    sockAddr: true
+    resultFlows: false
+  final_result: false
+  classification: True negative
+- program: chacl
+  package: acl
+  query: bind_shell
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    source: true
+    sockAddr: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: dnssec-cds
+  package: bind9-utils
+  query: bind_shell
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    sockAddr: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: dnssec-dsfromkey
+  package: bind9-utils
+  query: bind_shell
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    sockAddr: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: dnssec-keyfromlabel
+  package: bind9-utils
+  query: bind_shell
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    sockAddr: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: dnssec-keygen
+  package: bind9-utils
+  query: bind_shell
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    sockAddr: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: dnssec-revoke
+  package: bind9-utils
+  query: bind_shell
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    sockAddr: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: dnssec-settime
+  package: bind9-utils
+  query: bind_shell
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    sockAddr: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: dnssec-signzone
+  package: bind9-utils
+  query: bind_shell
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    sockAddr: true
+    openCallWithFlow: true
+    fileDesc: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: dnssec-verify
+  package: bind9-utils
+  query: bind_shell
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    sockAddr: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: named-checkconf
+  package: bind9-utils
+  query: bind_shell
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    sockAddr: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: named-checkzone
+  package: bind9-utils
+  query: bind_shell
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    sockAddr: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: rndc
+  package: bind9-utils
+  query: bind_shell
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    sockAddr: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: rndc-confgen
+  package: bind9-utils
+  query: bind_shell
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    sockAddr: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: lpc
+  package: cups-bsd
+  query: bind_shell
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    sockAddr: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: lpq
+  package: cups-bsd
+  query: bind_shell
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    sockAddr: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: lpr
+  package: cups-bsd
+  query: bind_shell
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    sockAddr: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: lprm
+  package: cups-bsd
+  query: bind_shell
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    sockAddr: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: dash
+  package: dash
+  query: bind_shell
+  test_program: true
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    sockAddr: true
+    resultFlows: false
+  final_result: false
+  classification: True negative
+- program: dialog
+  package: dialog
+  query: bind_shell
+  test_program: true
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    sockAddr: true
+    resultFlows: false
+  final_result: false
+  classification: True negative
+- program: cmp
+  package: diffutils
+  query: bind_shell
+  test_program: true
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    optarg: true
+    source: true
+    sockAddr: true
+    openCallWithFlow: true
+    resultFlows: false
+  final_result: false
+  classification: True negative
+- program: diff
+  package: diffutils
+  query: bind_shell
+  test_program: true
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    optarg: true
+    source: true
+    sockAddr: true
+    resultFlows: false
+  final_result: false
+  classification: True negative
+- program: diff3
+  package: diffutils
+  query: bind_shell
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    optarg: true
+    source: true
+    sockAddr: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: sdiff
+  package: diffutils
+  query: bind_shell
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    optarg: true
+    source: true
+    sockAddr: true
+    execCallsWithFlow: true
+    executeFileFlows: true
+    executeFlows: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: ed
+  package: ed
+  query: bind_shell
+  test_program: true
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    sockAddr: true
+    resultFlows: false
+  final_result: false
+  classification: True negative
+- program: emacs
+  package: emacs-gtk
+  query: bind_shell
+  test_program: true
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    sockAddr: true
+    openCallWithFlow: true
+    fileDesc: true
+    resultFlows: false
+  final_result: false
+  classification: True negative
+- program: emacsclient
+  package: emacs-gtk
+  query: bind_shell
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    sockAddr: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: gtester
+  package: libglib2.0-dev-bin
+  query: bind_shell
+  test_program: true
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    sockAddr: true
+    execCallsWithFlow: true
+    executeFileFlows: true
+    executeFlows: true
+    resultFlows: false
+  final_result: false
+  classification: True negative
+- program: glib-compile-resources
+  package: libglib2.0-dev-bin
+  query: bind_shell
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    sockAddr: true
+    openCallWithFlow: true
+    execCallsWithFlow: true
+    executeFileFlows: true
+    executeFlows: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: gobject-query
+  package: libglib2.0-dev-bin
+  query: bind_shell
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    sockAddr: true
+    execCallsWithFlow: true
+    executeFileFlows: true
+    executeFlows: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: ltrace
+  package: ltrace
+  query: bind_shell
+  test_program: true
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    source: true
+    sockAddr: true
+    execCallsWithFlow: true
+    executeFileFlows: true
+    executeFlows: true
+    resultFlows: false
+  final_result: false
+  classification: True negative
+- program: lua
+  package: lua5.4
+  query: bind_shell
+  test_program: true
+  has_label: true
+  meta_results:
+    argvInProgram: true
+    source: true
+    sockAddr: true
+    resultFlows: false
+  final_result: false
+  classification: False negative
+- program: luac
+  package: lua5.4
+  query: bind_shell
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    sockAddr: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: dmsetup
+  package: dmsetup
+  query: bind_shell
+  test_program: true
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    sockAddr: true
+    openCallWithFlow: timeout
+  final_result: timeout
+  classification: null

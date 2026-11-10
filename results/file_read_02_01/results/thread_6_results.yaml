@@ -1,0 +1,1412 @@
+- program: arj
+  package: arj
+  query: file_read
+  test_program: true
+  has_label: true
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: False negative
+- program: arjdisp
+  package: arj
+  query: file_read
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: rearj
+  package: arj
+  query: file_read
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: dc
+  package: dc
+  query: file_read
+  test_program: true
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    optarg: true
+    source: true
+    fopenCallsWithFlow: true
+    filePtr: true
+    getcCallsWithFlow: true
+    getcCallsFileContent: true
+    readFilePtrFileContent: true
+    fileContent: true
+    fprintfCallsWithFlow: true
+    fprintfCallsToStdoutWithFlow: true
+    writeToStdoutFlows: true
+    resultFlows: true
+  final_result: true
+  classification: False positive
+- program: dnssec-cds
+  package: bind9-utils
+  query: file_read
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: dnssec-dsfromkey
+  package: bind9-utils
+  query: file_read
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: dnssec-keyfromlabel
+  package: bind9-utils
+  query: file_read
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: dnssec-keygen
+  package: bind9-utils
+  query: file_read
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: dnssec-revoke
+  package: bind9-utils
+  query: file_read
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    fopenCallsWithFlow: true
+    filePtr: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: dnssec-settime
+  package: bind9-utils
+  query: file_read
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    fopenCallsWithFlow: true
+    filePtr: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: dnssec-signzone
+  package: bind9-utils
+  query: file_read
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    openCallsWithFlow: true
+    fileDesc: true
+    fdopenCallsWithFlow: true
+    filePtr: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: dnssec-verify
+  package: bind9-utils
+  query: file_read
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: named-checkconf
+  package: bind9-utils
+  query: file_read
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: named-checkzone
+  package: bind9-utils
+  query: file_read
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    fopenCallsWithFlow: true
+    filePtr: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: rndc
+  package: bind9-utils
+  query: file_read
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: rndc-confgen
+  package: bind9-utils
+  query: file_read
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: curl
+  package: curl
+  query: file_read
+  test_program: true
+  has_label: true
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: False negative
+- program: setlock
+  package: daemontools
+  query: file_read
+  test_program: true
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: True negative
+- program: softlimit
+  package: daemontools
+  query: file_read
+  test_program: true
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: True negative
+- program: envdir
+  package: daemontools
+  query: file_read
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: envuidgid
+  package: daemontools
+  query: file_read
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: fghack
+  package: daemontools
+  query: file_read
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: multilog
+  package: daemontools
+  query: file_read
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    openCallsWithFlow: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: pgrphack
+  package: daemontools
+  query: file_read
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: readproctitle
+  package: daemontools
+  query: file_read
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: setuidgid
+  package: daemontools
+  query: file_read
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: supervise
+  package: daemontools
+  query: file_read
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: svc
+  package: daemontools
+  query: file_read
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: svok
+  package: daemontools
+  query: file_read
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: svscan
+  package: daemontools
+  query: file_read
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: svstat
+  package: daemontools
+  query: file_read
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: tai64n
+  package: daemontools
+  query: file_read
+  test_program: false
+  has_label: false
+  meta_results:
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: tai64nlocal
+  package: daemontools
+  query: file_read
+  test_program: false
+  has_label: false
+  meta_results:
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: dpkg
+  package: dpkg
+  query: file_read
+  test_program: true
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: True negative
+- program: start-stop-daemon
+  package: dpkg
+  query: file_read
+  test_program: true
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    optarg: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: True negative
+- program: links
+  package: links
+  query: file_read
+  test_program: true
+  has_label: true
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: False negative
+- program: perf
+  package: linux-tools-common
+  query: file_read
+  test_program: true
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: True negative
+- program: pop3d
+  package: mailutils-pop3d
+  query: file_read
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: popauth
+  package: mailutils-pop3d
+  query: file_read
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: mail
+  package: mailutils
+  query: file_read
+  test_program: true
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: True negative
+- program: decodemail
+  package: mailutils
+  query: file_read
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: dotlock
+  package: mailutils
+  query: file_read
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: frm
+  package: mailutils
+  query: file_read
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: from
+  package: mailutils
+  query: file_read
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: messages
+  package: mailutils
+  query: file_read
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: mimeview
+  package: mailutils
+  query: file_read
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: movemail
+  package: mailutils
+  query: file_read
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: readmsg
+  package: mailutils
+  query: file_read
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: sieve
+  package: mailutils
+  query: file_read
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: nc-openbsd
+  package: netcat-openbsd
+  query: file_read
+  test_program: true
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    optarg: true
+    source: true
+    fopenCallsWithFlow: true
+    filePtr: true
+    resultFlows: false
+  final_result: false
+  classification: True negative
+- program: nc-traditional
+  package: netcat-traditional
+  query: file_read
+  test_program: true
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    optarg: true
+    source: true
+    openCallsWithFlow: true
+    fileDesc: true
+    resultFlows: false
+  final_result: false
+  classification: True negative
+- program: rlogin
+  package: rsh-client
+  query: file_read
+  test_program: true
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    optarg: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: True negative
+- program: rcp
+  package: rsh-client
+  query: file_read
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    source: true
+    openCallsWithFlow: true
+    fileDesc: true
+    readCallsWithFlow: true
+    readCallsFileContent: true
+    readFileDecriptorFileContent: true
+    fileContent: true
+    writeCallsWithFlow: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: rsh
+  package: rsh-client
+  query: file_read
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    optarg: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: nft
+  package: nftables
+  query: file_read
+  test_program: true
+  has_label: true
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    optarg: true
+    source: true
+    fopenCallsWithFlow: true
+    filePtr: true
+    resultFlows: false
+  final_result: false
+  classification: False negative
+- program: ntpd
+  package: ntp
+  query: file_read
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: ntpdc
+  package: ntp
+  query: file_read
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: ntpq
+  package: ntp
+  query: file_read
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: ntptrace
+  package: ntp
+  query: file_read
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: rc
+  package: rc
+  query: file_read
+  test_program: true
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: True negative
+- program: redis
+  package: _redis
+  query: file_read
+  test_program: true
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: True negative
+- program: rlwrap
+  package: rlwrap
+  query: file_read
+  test_program: true
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    optarg: true
+    source: true
+    fopenCallsWithFlow: true
+    filePtr: true
+    fgetsCallsWithFlow: true
+    fgetsCallsFileContent: true
+    readFilePtrFileContent: true
+    fileContent: true
+    fprintfCallsWithFlow: true
+    fprintfCallsToStdoutWithFlow: true
+    writeToStdoutFlows: true
+    resultFlows: true
+  final_result: true
+  classification: False positive
+- program: rsync
+  package: rsync
+  query: file_read
+  test_program: true
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: True negative
+- program: scrot
+  package: scrot
+  query: file_read
+  test_program: true
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: True negative
+- program: uudecode
+  package: sharutils
+  query: file_read
+  test_program: true
+  has_label: true
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: False negative
+- program: uuencode
+  package: sharutils
+  query: file_read
+  test_program: true
+  has_label: true
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: False negative
+- program: shar
+  package: sharutils
+  query: file_read
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: unshar
+  package: sharutils
+  query: file_read
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    fopenCallsWithFlow: true
+    filePtr: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: unsquashfs
+  package: squashfs-tools
+  query: file_read
+  test_program: true
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    openCallsWithFlow: true
+    fileDesc: true
+    fopenCallsWithFlow: true
+    filePtr: true
+    fgetsCallsWithFlow: true
+    fgetsCallsFileContent: true
+    readFilePtrFileContent: true
+    fileContent: true
+    resultFlows: false
+  final_result: false
+  classification: True negative
+- program: mksquashfs
+  package: squashfs-tools
+  query: file_read
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: tcpdump
+  package: tcpdump
+  query: file_read
+  test_program: true
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    optarg: true
+    source: true
+    openCallsWithFlow: true
+    fileDesc: true
+    readCallsWithFlow: true
+    readCallsFileContent: true
+    readFileDecriptorFileContent: true
+    fopenCallsWithFlow: true
+    filePtr: true
+    fgetsCallsWithFlow: true
+    fgetsCallsFileContent: true
+    readFilePtrFileContent: true
+    fileContent: true
+    fprintfCallsWithFlow: true
+    fprintfCallsToStdoutWithFlow: true
+    printfCallsWithFlow: true
+    putsCallsWithFlow: true
+    writeToStdoutFlows: true
+    resultFlows: true
+  final_result: true
+  classification: False positive
+- program: tftp
+  package: tftp-hpa
+  query: file_read
+  test_program: true
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: True negative
+- program: wish
+  package: tk
+  query: file_read
+  test_program: true
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: True negative
+- program: tmate
+  package: tmate
+  query: file_read
+  test_program: true
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: True negative
+- program: tor
+  package: tor
+  query: file_read
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: tor-gencert
+  package: tor
+  query: file_read
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: tor-print-ed-signing-cert
+  package: tor
+  query: file_read
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    openCallsWithFlow: true
+    fileDesc: true
+    readCallsWithFlow: true
+    readCallsFileContent: true
+    readFileDecriptorFileContent: true
+    fileContent: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: tor-resolve
+  package: tor
+  query: file_read
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: vim
+  package: vim
+  query: file_read
+  test_program: true
+  has_label: true
+  meta_results:
+    argvInProgram: true
+    source: true
+    fopenCallsWithFlow: true
+    resultFlows: false
+  final_result: false
+  classification: False negative
+- program: w3m
+  package: w3m
+  query: file_read
+  test_program: true
+  has_label: true
+  meta_results:
+    argvInProgram: true
+    source: true
+    fopenCallsWithFlow: true
+    freopenCallsWithFlow: true
+    filePtr: true
+    fgetcCallsWithFlow: true
+    fgetcCallsFileContent: true
+    readFilePtrFileContent: true
+    fileContent: true
+    writeCallsWithFlow: true
+    fwriteCallsWithFlow: true
+    resultFlows: false
+  final_result: false
+  classification: False negative
+- program: wget
+  package: wget
+  query: file_read
+  test_program: true
+  has_label: true
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    optarg: true
+    source: true
+    fopenCallsWithFlow: true
+    filePtr: true
+    getlineCallsWithFlow: true
+    getlineCallsFileContent: true
+    getdelimCallsWithFlow: true
+    getdelimCallsFileContent: true
+    readFilePtrFileContent: true
+    fileContent: true
+    fprintfCallsWithFlow: true
+    fprintfCallsToStdoutWithFlow: true
+    writeToStdoutFlows: true
+    resultFlows: true
+  final_result: true
+  classification: True positive
+- program: atobm
+  package: x11-apps
+  query: file_read
+  test_program: true
+  has_label: true
+  meta_results:
+    argvInProgram: true
+    source: true
+    fopenCallsWithFlow: true
+    filePtr: true
+    fgetsCallsWithFlow: true
+    fgetsCallsFileContent: true
+    readFilePtrFileContent: true
+    fileContent: true
+    fprintfCallsWithFlow: true
+    fprintfCallsToStdoutWithFlow: true
+    printfCallsWithFlow: true
+    writeToStdoutFlows: true
+    resultFlows: true
+  final_result: true
+  classification: True positive
+- program: xmore
+  package: x11-apps
+  query: file_read
+  test_program: true
+  has_label: true
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: False negative
+- program: clamscan
+  package: clamav
+  query: file_read
+  test_program: true
+  has_label: true
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: False negative
+- program: clamav-milter
+  package: clamav
+  query: file_read
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: clambc
+  package: clamav
+  query: file_read
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: clamconf
+  package: clamav
+  query: file_read
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: clamd
+  package: clamav
+  query: file_read
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: clamdscan
+  package: clamav
+  query: file_read
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: clamdtop
+  package: clamav
+  query: file_read
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: clamonacc
+  package: clamav
+  query: file_read
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: clamsubmit
+  package: clamav
+  query: file_read
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: freshclam
+  package: clamav
+  query: file_read
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: icedax
+  package: icedax
+  query: file_read
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: null
+- program: debugfs
+  package: e2fsprogs
+  query: file_read
+  test_program: true
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    optarg: true
+    source: true
+    fopenCallsWithFlow: true
+    filePtr: true
+    fgetsCallsWithFlow: true
+    fgetsCallsFileContent: true
+    readFilePtrFileContent: true
+    fileContent: true
+    fprintfCallsWithFlow: timeout
+  final_result: timeout
+  classification: null
+- program: logsave
+  package: e2fsprogs
+  query: file_read
+  test_program: true
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    source: true
+    openCallsWithFlow: true
+    fileDesc: true
+    fprintfCallsWithFlow: timeout
+  final_result: timeout
+  classification: null
+- program: badblocks
+  package: e2fsprogs
+  query: file_read
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    optarg: true
+    source: true
+    openCallsWithFlow: true
+    fileDesc: true
+    fopenCallsWithFlow: true
+    filePtr: true
+    fprintfCallsWithFlow: timeout
+  final_result: timeout
+  classification: null
+- program: chattr
+  package: e2fsprogs
+  query: file_read
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    openCallsWithFlow: true
+    fileDesc: true
+    fprintfCallsWithFlow: timeout
+  final_result: timeout
+  classification: null
+- program: dumpe2fs
+  package: e2fsprogs
+  query: file_read
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    optarg: true
+    source: true
+    fprintfCallsWithFlow: timeout
+  final_result: timeout
+  classification: null
+- program: e2freefrag
+  package: e2fsprogs
+  query: file_read
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    optarg: true
+    source: true
+    fprintfCallsWithFlow: timeout
+  final_result: timeout
+  classification: null
+- program: e2fsck
+  package: e2fsprogs
+  query: file_read
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    optarg: true
+    source: true
+    openCallsWithFlow: true
+    fileDesc: true
+    fopenCallsWithFlow: true
+    fdopenCallsWithFlow: true
+    filePtr: true
+    fgetsCallsWithFlow: true
+    fgetsCallsFileContent: true
+    readFilePtrFileContent: true
+    fileContent: true
+    fprintfCallsWithFlow: timeout
+  final_result: timeout
+  classification: null
+- program: e2image
+  package: e2fsprogs
+  query: file_read
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    optarg: true
+    source: true
+    openCallsWithFlow: true
+    fprintfCallsWithFlow: timeout
+  final_result: timeout
+  classification: null
+- program: e2label
+  package: e2fsprogs
+  query: file_read
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    openCallsWithFlow: true
+    fileDesc: true
+    readCallsWithFlow: true
+    readCallsFileContent: true
+    readFileDecriptorFileContent: true
+    fileContent: true
+    writeCallsWithFlow: true
+    fprintfCallsWithFlow: timeout
+  final_result: timeout
+  classification: null
+- program: e2undo
+  package: e2fsprogs
+  query: file_read
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    optarg: true
+    source: true
+    openCallsWithFlow: true
+    fprintfCallsWithFlow: timeout
+  final_result: timeout
+  classification: null
+- program: e4crypt
+  package: e2fsprogs
+  query: file_read
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    fprintfCallsWithFlow: timeout
+  final_result: timeout
+  classification: null
+- program: filefrag
+  package: e2fsprogs
+  query: file_read
+  test_program: false
+  has_label: false
+  meta_results:
+    fprintfCallsWithFlow: timeout
+  final_result: timeout
+  classification: null
+- program: lsattr
+  package: e2fsprogs
+  query: file_read
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    source: true
+    openCallsWithFlow: true
+    fileDesc: true
+    fprintfCallsWithFlow: timeout
+  final_result: timeout
+  classification: null
+- program: mke2fs
+  package: e2fsprogs
+  query: file_read
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    optarg: true
+    source: true
+    openCallsWithFlow: true
+    fprintfCallsWithFlow: timeout
+  final_result: timeout
+  classification: null
+- program: mklost+found
+  package: e2fsprogs
+  query: file_read
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    fprintfCallsWithFlow: timeout
+  final_result: timeout
+  classification: null
+- program: resize2fs
+  package: e2fsprogs
+  query: file_read
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    optarg: true
+    source: true
+    openCallsWithFlow: true
+    fprintfCallsWithFlow: timeout
+  final_result: timeout
+  classification: null
+- program: tune2fs
+  package: e2fsprogs
+  query: file_read
+  test_program: false
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    getoptCallsWithFlow: true
+    optarg: true
+    source: true
+    fprintfCallsWithFlow: timeout
+  final_result: timeout
+  classification: null
+- program: dmsetup
+  package: dmsetup
+  query: file_read
+  test_program: true
+  has_label: false
+  meta_results:
+    argvInProgram: true
+    source: true
+    resultFlows: false
+  final_result: false
+  classification: True negative
